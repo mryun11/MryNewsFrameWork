@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6437D62A1D06A9C8000DDAA8 /* MryPageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437D6291D06A9C8000DDAA8 /* MryPageTable.m */; };
+		6437D62E1D06C7E9000DDAA8 /* MryScrollPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437D62D1D06C7E9000DDAA8 /* MryScrollPageVC.m */; };
+		647088D61D05522800C6C31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647088D51D05522800C6C31A /* main.m */; };
+		647088D91D05522800C6C31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 647088D81D05522800C6C31A /* AppDelegate.m */; };
+		647088DC1D05522800C6C31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647088DB1D05522800C6C31A /* ViewController.m */; };
+		647088DF1D05522800C6C31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647088DD1D05522800C6C31A /* Main.storyboard */; };
+		647088E11D05522800C6C31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647088E01D05522800C6C31A /* Assets.xcassets */; };
+		647088E41D05522800C6C31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647088E21D05522800C6C31A /* LaunchScreen.storyboard */; };
+		647088ED1D05527B00C6C31A /* MryScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 647088EC1D05527B00C6C31A /* MryScrollMenu.m */; };
+		647088F31D056DF800C6C31A /* MryScrollPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 647088F21D056DF800C6C31A /* MryScrollPageCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6437D6281D06A9C8000DDAA8 /* MryPageTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryPageTable.h; sourceTree = "<group>"; };
+		6437D6291D06A9C8000DDAA8 /* MryPageTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryPageTable.m; sourceTree = "<group>"; };
+		6437D62C1D06C7E9000DDAA8 /* MryScrollPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryScrollPageVC.h; sourceTree = "<group>"; };
+		6437D62D1D06C7E9000DDAA8 /* MryScrollPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryScrollPageVC.m; sourceTree = "<group>"; };
+		647088D11D05522800C6C31A /* MryNewsFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MryNewsFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647088D51D05522800C6C31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647088D71D05522800C6C31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		647088D81D05522800C6C31A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		647088DA1D05522800C6C31A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		647088DB1D05522800C6C31A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		647088DE1D05522800C6C31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		647088E01D05522800C6C31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		647088E31D05522800C6C31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		647088E51D05522800C6C31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647088EB1D05527B00C6C31A /* MryScrollMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryScrollMenu.h; sourceTree = "<group>"; };
+		647088EC1D05527B00C6C31A /* MryScrollMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryScrollMenu.m; sourceTree = "<group>"; };
+		647088F11D056DF800C6C31A /* MryScrollPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryScrollPageCell.h; sourceTree = "<group>"; };
+		647088F21D056DF800C6C31A /* MryScrollPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryScrollPageCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647088CE1D05522800C6C31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6437D62B1D06AC38000DDAA8 /* MryNewsFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				647088EB1D05527B00C6C31A /* MryScrollMenu.h */,
+				647088EC1D05527B00C6C31A /* MryScrollMenu.m */,
+				647088F11D056DF800C6C31A /* MryScrollPageCell.h */,
+				647088F21D056DF800C6C31A /* MryScrollPageCell.m */,
+				6437D62C1D06C7E9000DDAA8 /* MryScrollPageVC.h */,
+				6437D62D1D06C7E9000DDAA8 /* MryScrollPageVC.m */,
+			);
+			name = MryNewsFrameWork;
+			sourceTree = "<group>";
+		};
+		647088C81D05522800C6C31A = {
+			isa = PBXGroup;
+			children = (
+				647088D31D05522800C6C31A /* MryNewsFrameWork */,
+				647088D21D05522800C6C31A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647088D21D05522800C6C31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647088D11D05522800C6C31A /* MryNewsFrameWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647088D31D05522800C6C31A /* MryNewsFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				6437D62B1D06AC38000DDAA8 /* MryNewsFrameWork */,
+				647088D71D05522800C6C31A /* AppDelegate.h */,
+				647088D81D05522800C6C31A /* AppDelegate.m */,
+				647088DA1D05522800C6C31A /* ViewController.h */,
+				647088DB1D05522800C6C31A /* ViewController.m */,
+				6437D6281D06A9C8000DDAA8 /* MryPageTable.h */,
+				6437D6291D06A9C8000DDAA8 /* MryPageTable.m */,
+				647088DD1D05522800C6C31A /* Main.storyboard */,
+				647088E01D05522800C6C31A /* Assets.xcassets */,
+				647088E21D05522800C6C31A /* LaunchScreen.storyboard */,
+				647088E51D05522800C6C31A /* Info.plist */,
+				647088D41D05522800C6C31A /* Supporting Files */,
+			);
+			path = MryNewsFrameWork;
+			sourceTree = "<group>";
+		};
+		647088D41D05522800C6C31A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647088D51D05522800C6C31A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647088D01D05522800C6C31A /* MryNewsFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647088E81D05522800C6C31A /* Build configuration list for PBXNativeTarget "MryNewsFrameWork" */;
+			buildPhases = (
+				647088CD1D05522800C6C31A /* Sources */,
+				647088CE1D05522800C6C31A /* Frameworks */,
+				647088CF1D05522800C6C31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MryNewsFrameWork;
+			productName = MryNewsFrameWork;
+			productReference = 647088D11D05522800C6C31A /* MryNewsFrameWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647088C91D05522800C6C31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mryun11;
+				TargetAttributes = {
+					647088D01D05522800C6C31A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 647088CC1D05522800C6C31A /* Build configuration list for PBXProject "MryNewsFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647088C81D05522800C6C31A;
+			productRefGroup = 647088D21D05522800C6C31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647088D01D05522800C6C31A /* MryNewsFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647088CF1D05522800C6C31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647088E41D05522800C6C31A /* LaunchScreen.storyboard in Resources */,
+				647088E11D05522800C6C31A /* Assets.xcassets in Resources */,
+				647088DF1D05522800C6C31A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647088CD1D05522800C6C31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6437D62A1D06A9C8000DDAA8 /* MryPageTable.m in Sources */,
+				6437D62E1D06C7E9000DDAA8 /* MryScrollPageVC.m in Sources */,
+				647088F31D056DF800C6C31A /* MryScrollPageCell.m in Sources */,
+				647088DC1D05522800C6C31A /* ViewController.m in Sources */,
+				647088ED1D05527B00C6C31A /* MryScrollMenu.m in Sources */,
+				647088D91D05522800C6C31A /* AppDelegate.m in Sources */,
+				647088D61D05522800C6C31A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		647088DD1D05522800C6C31A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647088DE1D05522800C6C31A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		647088E21D05522800C6C31A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647088E31D05522800C6C31A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		647088E61D05522800C6C31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		647088E71D05522800C6C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647088E91D05522800C6C31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MryNewsFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mryun11.MryNewsFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		647088EA1D05522800C6C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MryNewsFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mryun11.MryNewsFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647088CC1D05522800C6C31A /* Build configuration list for PBXProject "MryNewsFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647088E61D05522800C6C31A /* Debug */,
+				647088E71D05522800C6C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647088E81D05522800C6C31A /* Build configuration list for PBXNativeTarget "MryNewsFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647088E91D05522800C6C31A /* Debug */,
+				647088EA1D05522800C6C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647088C91D05522800C6C31A /* Project object */;
+}
